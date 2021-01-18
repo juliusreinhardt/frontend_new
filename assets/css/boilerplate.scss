@@ -1,0 +1,549 @@
+// Settings
+$color-primary: black;
+$color-secondary: white;
+$color-third: #DFD7D1;
+
+$breakpoint-tablet: 800px;
+$breakpoint-desktop: 3000px;
+
+$font-size-xs: 14px;
+$font-size-s: 18px;
+$font-size-m: 24px;
+$font-size-l: 36px;
+$font-size-xl: 96px;
+$font-size-xxl: 124px;
+
+$font-size-xs-mobile: 14px;
+$font-size-s-mobile: 14px;
+$font-size-m-mobile: 20px;
+$font-size-l-mobile: 30px;
+$font-size-xl-mobile: 36px;
+$font-size-xxl-mobile: 36px;
+
+$max-width-copy: unset;
+
+$spacing-xs: 16px;
+$spacing-s: 32px;
+$spacing-m: 80px;
+$spacing-l: 120px;
+$spacing-xl: 200px;
+
+$spacing-menu: 24px;
+$nav-height: 80px;
+
+$transition-quick: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+$transition-slow: all 0.4s cubic-bezier(0.4, 1, 0.8, 1);
+
+// Spacings
+// ####################################################
+// ####################################################
+.m {
+  // Around
+  &-0 {
+    margin: 0 !important;
+  }
+  &-xs {
+    margin: $spacing-xs !important;
+  }
+  &-s {
+    margin: $spacing-s !important;
+  }
+  &-m {
+    margin: $spacing-m !important;
+  }
+  &-l {
+    margin: $spacing-l !important;
+  }
+
+  // Horizontal
+  &x {
+    &-0 {
+      margin: 0 !important;
+    }
+    &-xs {
+      margin: 0 $spacing-xs !important;
+    }
+    &-s {
+      margin: 0 $spacing-s !important;
+    }
+    &-m {
+      margin: 0 $spacing-m !important;
+    }
+    &-l {
+      margin: 0 $spacing-l !important;
+    }
+  }
+
+  // Vertical
+  &y {
+    &-0 {
+      margin: 0 !important;
+    }
+    &-xs {
+      margin: $spacing-xs 0 !important;
+    }
+    &-s {
+      margin: $spacing-s 0 !important;
+    }
+    &-m {
+      margin: $spacing-m 0 !important;
+    }
+    &-l {
+      margin: $spacing-l 0 !important;
+    }
+  }
+
+  // Right
+  &r {
+    &-0 {
+      margin-right: !important;
+    }
+    &-xs {
+      margin-right: $spacing-xs !important;
+    }
+    &-s {
+      margin-right: $spacing-s !important;
+    }
+    &-m {
+      margin-right: $spacing-m !important;
+    }
+    &-l {
+      margin-right: $spacing-l !important;
+    }
+  }
+
+  // Left
+  &l {
+    &-0 {
+      margin-left: !important;
+    }
+    &-xs {
+      margin-left: $spacing-xs !important;
+    }
+    &-s {
+      margin-left: $spacing-s !important;
+    }
+    &-m {
+      margin-left: $spacing-m !important;
+    }
+    &-l {
+      margin-left: $spacing-l !important;
+    }
+  }
+
+  // Top
+  &t {
+    &-0 {
+      margin-top: !important;
+    }
+    &-xs {
+      margin-top: $spacing-xs !important;
+    }
+    &-s {
+      margin-top: $spacing-s !important;
+    }
+    &-m {
+      margin-top: $spacing-m !important;
+    }
+    &-l {
+      margin-top: $spacing-l !important;
+    }
+  }
+}
+
+.p {
+  // Around
+  &-0 {
+    padding: 0;
+  }
+  &-xs {
+    padding: $spacing-xs!important;
+  }
+  &-s {
+    padding: $spacing-s!important;
+  }
+  &-m {
+    padding: $spacing-m!important;
+  }
+  &-l {
+    padding: $spacing-l!important;
+  }
+  &-xl {
+    padding: $spacing-xl!important;
+  }
+
+  // Horizontal
+  &x {
+    &-0 {
+      padding: 0;
+    }
+    &-xs {
+      padding: 0 $spacing-xs!important;
+    }
+    &-s {
+      padding: 0 $spacing-s!important;
+    }
+    &-m {
+      padding: 0 $spacing-m!important;
+    }
+    &-l {
+      padding: 0 $spacing-l!important;
+    }
+    &-xl {
+      padding: 0 $spacing-xl!important;
+    }
+  }
+
+  // Vertical
+  &y {
+    &-0 {
+      padding: 0;
+    }
+    &-xs {
+      padding: $spacing-xs 0!important;
+    }
+    &-s {
+      padding: $spacing-s 0!important;
+    }
+    &-m {
+      padding: $spacing-m 0!important;
+    }
+    &-l {
+      padding: $spacing-l 0!important;
+    }
+    &-xl {
+      padding: $spacing-xl 0!important;
+    }
+  }
+
+  // Top
+  &t {
+    &-0 {
+      padding-top: 0;
+    }
+    &-xs {
+      padding-top: $spacing-xs!important;
+    }
+    &-s {
+      padding-top: $spacing-s!important;
+    }
+    &-m {
+      padding-top: $spacing-m!important;
+    }
+    &-l {
+      padding-top: $spacing-l!important;
+    }
+    &-xl {
+      padding-top: $spacing-xl!important;
+    }
+  }
+
+  // Bottom
+  &b {
+    &-0 {
+      padding-bottom: 0;
+    }
+    &-xs {
+      padding-bottom: $spacing-xs;
+    }
+    &-s {
+      padding-bottom: $spacing-s;
+    }
+    &-m {
+      padding-bottom: $spacing-m;
+    }
+    &-l {
+      padding-bottom: $spacing-l;
+    }
+    &-xl {
+      padding-bottom: $spacing-xl;
+    }
+  }
+}
+
+// Font Sizes
+// ####################################################
+// ####################################################
+.fs-xxl {
+  font-size: $font-size-xxl;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fs-xl {
+  font-size: $font-size-xl;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fs-l {
+  font-size: $font-size-l;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fs-m {
+  font-size: $font-size-m;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fs-s {
+  font-size: $font-size-s;
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .fs-xxl {
+    font-size: $font-size-xxl-mobile;
+  }
+
+  .fs-xl {
+    font-size: $font-size-xl-mobile;
+  }
+
+  .fs-l {
+    font-size: $font-size-l-mobile;
+  }
+
+  .fs-m {
+    font-size: $font-size-m-mobile;
+  }
+
+  .fs-s {
+    font-size: $font-size-s-mobile;
+  }
+}
+
+// Font Fam
+// ####################################################
+// ####################################################
+
+.ff-{
+  &a {
+    font-family: 'Canela', serif;
+    font-weight: 300;
+  }
+  &b {
+    font-family: 'Circular', sans-serif;
+  }
+}
+
+// Font Colors
+// ####################################################
+// ####################################################
+.fc- {
+  &white {
+    color: white;
+  }
+  &black {
+    color: black;
+  }
+  &third {
+    color: $color-third;
+  }
+}
+
+// Background Color
+// ####################################################
+// ####################################################
+.bc- {
+  &white {
+    background-color: white;
+    color: black;
+  }
+  &black {
+    background-color: $color-primary;
+    color: white;
+  }
+  &third {
+    background-color: $color-third;
+    color: black;
+  }
+}
+
+// Font Settings
+// ####################################################
+// ####################################################
+@mixin headlines {
+  margin: unset;
+  font-weight: 200;
+}
+
+h1 {
+  @include headlines;
+  font-size: $font-size-xl;
+}
+
+h2 {
+  @include headlines;
+  font-size: $font-size-l;
+}
+
+h3 {
+  @include headlines;
+  font-size: $font-size-m;
+}
+
+h4 {
+  @include headlines;
+  font-size: $font-size-s;
+}
+
+h5 {
+  @include headlines;
+  font-size: $font-size-s;
+}
+
+p {
+  font-size: $font-size-s;
+  margin-block-start: 0;
+  margin-block-end: $spacing-xs;
+  max-width: $max-width-copy;
+  line-height: 160%;
+  opacity: .8;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+  &:visited {
+    color: black;
+  }
+}
+
+// Button
+// ####################################################
+// ####################################################
+
+@mixin button {
+  font-size: $font-size-s;
+  color: #fff;
+  padding: 16px 28px 14px 28px;
+  opacity: 1;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 100px;
+  transition: $transition-quick;
+  cursor: pointer;
+}
+
+@mixin button-black {
+  @include button;
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+@mixin button-white {
+  @include button;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+.button-black {
+  @include button-black;
+}
+
+.button-white {
+  @include button-white;
+}
+
+// Grid Settings
+// ####################################################
+// ####################################################
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  grid-gap: 0;
+}
+
+header,
+main,
+article,
+footer {
+  grid-column: 1/4;
+}
+
+// Body, Wrapper, Container
+// ####################################################
+// ####################################################
+body {
+  background-color: white;
+  font-family: "Circular", sans-serif;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &.page {
+    margin: 0 !important;
+  }
+}
+
+main.site-main {
+  padding-top: $nav-height;
+}
+
+article {
+  margin: unset;
+
+  &.page,
+  &.page {
+    margin: unset;
+  }
+}
+
+.wrapper {
+  overflow: hidden;
+  padding: $spacing-l $spacing-l;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: $breakpoint-tablet) {
+
+  .wrapper {
+    padding: $spacing-m $spacing-s;
+  }
+}
+
+.ani-img-wrapper {
+  width: 0;
+  .ani-img {
+    opacity: 0;
+  }
+}
+
+.ani-img-wrapper-member {
+  width: 0;
+  height: 600px;
+  background-color: rgba(255,255,255,.2);
+  .ani-img-member {
+    opacity: 0;
+  }
+}

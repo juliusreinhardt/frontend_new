@@ -1,0 +1,37 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@nuxtjs/axios": "^5.12.5",
+    "aos": "^2.3.4",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.0.0",
+    "apollo-link": "^1.0.0",
+    "core-js": "^3.6.5",
+    "graphql": "^15.4.0",
+    "gsap": "^3.6.0",
+    "intersection-observer": "^0.12.0",
+    "nuxt": "^2.14.6",
+    "vue-page-transition": "^0.2.2",
+    "vue-scrollama": "^1.1.9",
+    "vue-scrollmagic": "^1.2.0"
+  },
+  "devDependencies": {
+    "fibers": "^5.0.0",
+    "graphql-tag": "^2.11.0",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.32.2",
+    "sass-loader": "^10.1.0"
+  }
+}

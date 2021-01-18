@@ -1,0 +1,30 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/juliusreinhardt/Documents/Projects/mezzomezzostudio/mezzomezzo_frontend-main/pages/about/index.vue",
+    "chunkName": "pages/about/index",
+    "_name": "_4833bf7c"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/juliusreinhardt/Documents/Projects/mezzomezzostudio/mezzomezzo_frontend-main/pages/contact/index.vue",
+    "chunkName": "pages/contact/index",
+    "_name": "_4119b695"
+  },
+  {
+    "name": "workflow",
+    "path": "/workflow",
+    "component": "/Users/juliusreinhardt/Documents/Projects/mezzomezzostudio/mezzomezzo_frontend-main/pages/workflow/index.vue",
+    "chunkName": "pages/workflow/index",
+    "_name": "_bf611800"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/juliusreinhardt/Documents/Projects/mezzomezzostudio/mezzomezzo_frontend-main/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_7a7b6fc4"
+  }
+]

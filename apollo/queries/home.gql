@@ -1,0 +1,50 @@
+query {
+  home {
+    herotitle 
+    herosubtitle
+    heroimage{
+      provider_metadata
+      caption
+      url
+    }
+    leistungenimage {
+      url
+    }
+    leistungen {
+      id
+      titel
+    	beschreibung
+      image {
+        url
+      }
+    }
+    clients {
+      url
+    }
+    projekte {
+      url
+    }
+    member {
+      name 
+      beschreibung
+      url {
+        url
+      }
+    }
+    faq {
+      frage
+    	text
+    }
+  }
+  about {
+    titeltext
+    phase {
+      id
+      titel 
+      beschreibung
+      tags {
+        tag
+      }
+    }
+  }
+}
