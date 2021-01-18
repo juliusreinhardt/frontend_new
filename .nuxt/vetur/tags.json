@@ -11,6 +11,12 @@
   "LazyButton": {
     "description": "Auto imported from components/Button.vue"
   },
+  "Cta": {
+    "description": "Auto imported from components/Cta.vue"
+  },
+  "LazyCta": {
+    "description": "Auto imported from components/Cta.vue"
+  },
   "Footer": {
     "description": "Auto imported from components/Footer.vue"
   },

@@ -52,13 +52,16 @@
           <div class="workflow__text p-l center">
             <h2 class="ff-a fs-xl">We take a holistic approach to create digital branding & experiences.</h2>
             <p>Corporatelevel companies trust us to refresh and improve their brands online. Start-ups – to launch and set a visual tone.</p>
-            <Button titel="Check out the MezzoMezzo way" link="#" theme="white"/>
+            <Button titel="Check out the MezzoMezzo way" link="/workflow" theme="white"/>
           </div>
           <div class="workflow__image">
             <div class="grain"></div>
             <div class="dot"></div>
           </div>
         </section>
+
+        <!-- CTA -->
+        <Cta />
 
       </main>
 </template>

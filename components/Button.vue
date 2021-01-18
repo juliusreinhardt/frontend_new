@@ -28,6 +28,7 @@ export default {
   padding: 14px 24px;
   font-size: 16px;
   font-family: "Circular", sans-serif;
+  width: fit-content;
 }
 
 .white {

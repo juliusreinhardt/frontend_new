@@ -1,5 +1,6 @@
 export { default as Accordion } from '../../components/Accordion.vue'
 export { default as Button } from '../../components/Button.vue'
+export { default as Cta } from '../../components/Cta.vue'
 export { default as Footer } from '../../components/Footer.vue'
 export { default as Header } from '../../components/Header.vue'
 export { default as Logo } from '../../components/Logo.vue'
@@ -10,6 +11,7 @@ export { default as Tag } from '../../components/Tag.vue'
 
 export const LazyAccordion = import('../../components/Accordion.vue' /* webpackChunkName: "components/Accordion" */).then(c => c.default || c)
 export const LazyButton = import('../../components/Button.vue' /* webpackChunkName: "components/Button" */).then(c => c.default || c)
+export const LazyCta = import('../../components/Cta.vue' /* webpackChunkName: "components/Cta" */).then(c => c.default || c)
 export const LazyFooter = import('../../components/Footer.vue' /* webpackChunkName: "components/Footer" */).then(c => c.default || c)
 export const LazyHeader = import('../../components/Header.vue' /* webpackChunkName: "components/Header" */).then(c => c.default || c)
 export const LazyLogo = import('../../components/Logo.vue' /* webpackChunkName: "components/Logo" */).then(c => c.default || c)
