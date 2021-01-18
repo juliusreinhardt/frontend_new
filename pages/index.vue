@@ -108,16 +108,26 @@ export default {
     },
     // Projekt Scroll  
     startAnimations: function() {
-      var timeline = new TimelineMax();
-      timeline.to(".projekte__wrapper", 1, {transform: 'translateX(-120vh)',});
+      // var timeline = new TimelineMax();
+      // timeline.to(".projekte__wrapper", 1, {transform: 'translateX(-120vh)',});
 
-      const scene = this.$scrollmagic.scene({
-        triggerElement: ".projekte__wrapper",
-        triggerHook: 1,
-        duration: "100%"
-      })
-      .setTween(timeline)
-      this.$scrollmagic.addScene(scene)
+      // const scene = this.$scrollmagic.scene({
+      //   triggerElement: ".projekte__wrapper",
+      //   triggerHook: 1,
+      //   duration: "100%"
+      // })
+      // .setTween(timeline)
+      // this.$scrollmagic.addScene(scene)
+
+      const scrollTrigger = {
+        trigger: '.projekte__wrapper',
+        start: "-=900",
+        end: "+=900",
+        scrub: 1,
+        ease: "power1.inOut" 
+      };
+      gsap.timeline({ scrollTrigger })
+      .to(".projekte__wrapper", .3, {transform: 'translateX(-60vh)',})
     },
     // intersecOb: function() {
     //   // Selecting just the first of my bars

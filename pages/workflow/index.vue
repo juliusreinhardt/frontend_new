@@ -89,7 +89,7 @@ export default {
         trigger: '.phase',
         start: 'top',
         end: 'bottom',
-        scrub: 1,
+        scrub: 3,
         ease: "power1.inOut" 
       };
       gsap.timeline({ scrollTrigger })
