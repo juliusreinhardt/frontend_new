@@ -61,7 +61,7 @@ import gql from 'graphql-tag'
 import homeQuery from '~/apollo/queries/home'
 import gsap from 'gsap'
 import PageTransition from '~/components/PageTransition'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+// import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 export default {
   data() {

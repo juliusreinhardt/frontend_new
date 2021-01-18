@@ -12,8 +12,8 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_39501a44 from 'nuxt_plugin_plugin_39501a44' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_apollomodule_36cb5d26 from 'nuxt_plugin_apollomodule_36cb5d26' // Source: ./apollo-module.js (mode: 'all')
+import nuxt_plugin_plugin_ac0be7f4 from 'nuxt_plugin_plugin_ac0be7f4' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_apollomodule_97af0030 from 'nuxt_plugin_apollomodule_97af0030' // Source: ./apollo-module.js (mode: 'all')
 import nuxt_plugin_vuescrollmagic_459ef1fa from 'nuxt_plugin_vuescrollmagic_459ef1fa' // Source: ../plugins/vue-scrollmagic (mode: 'client')
 
 // Component: <ClientOnly>
@@ -174,12 +174,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_39501a44 === 'function') {
-    await nuxt_plugin_plugin_39501a44(app.context, inject)
+  if (typeof nuxt_plugin_plugin_ac0be7f4 === 'function') {
+    await nuxt_plugin_plugin_ac0be7f4(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_apollomodule_36cb5d26 === 'function') {
-    await nuxt_plugin_apollomodule_36cb5d26(app.context, inject)
+  if (typeof nuxt_plugin_apollomodule_97af0030 === 'function') {
+    await nuxt_plugin_apollomodule_97af0030(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_vuescrollmagic_459ef1fa === 'function') {
